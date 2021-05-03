@@ -1,3 +1,12 @@
+###########################################################################
+# Place update_trees.py into your servers root directory
+# Run update_trees.py with python3
+# treeGrowthValue is tree growth speed in days
+# plantGrowthValue is plant growth speed in days
+# treeList is the name of each tree in the game. This list determines which value
+# in the directory mods/AutoGen/Plant the file will get. If its not a tree, it gets
+# set to the plant value.
+###########################################################################
 import fileinput
 import os
 import sys
